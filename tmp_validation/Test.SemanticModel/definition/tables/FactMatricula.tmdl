@@ -1,0 +1,25 @@
+table FactMatricula
+
+	measure Matriculas = COUNTROWS ( FactMatricula )
+		formatString: #,##0
+
+	column MatriculaID
+		dataType: string
+		isHidden
+		sourceColumn: MatriculaID
+
+	column EsPerdida
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: EsPerdida
+
+	partition FactMatricula = m
+		mode: import
+		source =
+			let
+			    Origen = Csv.Document(File.Contents("C:\Users\capatino\Documents\Software con códex\Dashboard_Aprendices_SENA\data\processed\FactMatricula.csv"),[Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+			    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+			    Tipos = Table.TransformColumnTypes(Encabezados,{{"MatriculaID", type text}, {"EsPerdida", Int64.Type}})
+			in
+			    Tipos

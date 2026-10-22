@@ -1,0 +1,8 @@
+﻿EstadoID,Estado,Categoria,EsVinculado,EsActivo,EsPerdida,EsCancelado,EsRetirado,EsTrasladado,EsSuspendido,EsRiesgo,EsCertificado,Orden,ColorHex,Definicion
+E01,EN FORMACION,Activo,1,1,0,0,0,0,0,0,0,1,#2E7D32,Aprendiz con matrícula vigente y formación en curso.
+E02,INDUCCION,Activo,1,1,0,0,0,0,0,0,0,2,#00897B,"Aprendiz en etapa de inducción, matrícula vigente."
+E03,CONDICIONADO,Activo en riesgo,1,1,0,0,0,0,0,1,0,3,#F9A825,Aprendiz con novedad académica o disciplinaria; requiere seguimiento.
+E04,APLAZADO,Suspendido,1,0,0,0,0,0,1,1,0,4,#EF6C00,Aprendiz con matrícula aplazada; no está en formación activa.
+E05,CANCELADO,Desertor,0,0,1,1,0,0,0,0,0,5,#C62828,Matrícula cancelada. Se contabiliza como deserción.
+E06,RETIRO VOLUNTARIO,Desertor,0,0,1,0,1,0,0,0,0,6,#8E0000,Retiro solicitado por el aprendiz. Se contabiliza como deserción.
+E07,TRASLADADO,Egreso por traslado,0,0,0,0,0,1,0,0,0,7,#546E7A,Traslado a otra ficha o centro; no se contabiliza como deserción.

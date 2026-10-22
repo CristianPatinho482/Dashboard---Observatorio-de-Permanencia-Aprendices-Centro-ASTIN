@@ -1,0 +1,16 @@
+﻿ProgramaID,ProgramaNombre,ProgramaCorto,LineaTecnologica,NivelFormacion,NivelFuente,TotalFichas,TotalMatriculas,Activo,NotaNivel
+P01,Alistamiento de Laboratorios de Análisis y Ensayos para la Industria,Alistamiento de Laboratorios,Química y Laboratorio,Técnico,Inferido por nombre de programa,1,18,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P02,Análisis de Materiales para la Industria,Análisis de Materiales,Química y Laboratorio,Tecnólogo,Inferido por nombre de programa,2,38,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P03,Aplicación de Procedimientos de Laboratorio Químico,Procedimientos de Laboratorio,Química y Laboratorio,Técnico,Inferido por nombre de programa,1,14,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P04,Coordinación en Sistemas Integrados de Gestión,Sistemas Integrados de Gestión,Gestión y Sistemas,Tecnólogo,Inferido por nombre de programa,15,484,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P05,Desarrollo de Componentes Mecánicos,Componentes Mecánicos,Metalmecánica y Materiales,Tecnólogo,Inferido por nombre de programa,3,84,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P06,Desarrollo y Modelado de Productos Industriales,Modelado de Productos,Diseño y Manufactura,Tecnólogo,Inferido por nombre de programa,4,101,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P07,Fabricación de Moldes y Troqueles,Moldes y Troqueles,Metalmecánica y Materiales,Tecnólogo,Inferido por nombre de programa,2,53,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P08,Fabricación de Productos Plásticos por Inyección y Soplado,Productos Plásticos,Plásticos y Polímeros,Tecnólogo,Inferido por nombre de programa,1,19,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P09,Gestión de Proyectos de Desarrollo Económico y Social,Gestión de Proyectos,Gestión y Sistemas,Tecnólogo,Inferido por nombre de programa,9,235,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P10,Gestión de la Producción Industrial,Producción Industrial,Producción Industrial,Tecnólogo,Inferido por nombre de programa,6,183,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P11,Modelado 3D para la Industria,Modelado 3D,Diseño y Manufactura,Tecnólogo,Inferido por nombre de programa,2,52,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P12,Monitoreo Ambiental,Monitoreo Ambiental,Ambiental,Tecnólogo,Inferido por nombre de programa,4,149,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P13,Procesos de Manufactura (Baxter),Manufactura Baxter,Metalmecánica y Materiales,Técnico,Explícito en nombre de archivo,1,26,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P14,Química Aplicada a la Industria,Química Aplicada,Química y Laboratorio,Tecnólogo,Inferido por nombre de programa,4,113,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.
+P15,Transformación de Polímeros por Inyección,Transformación de Polímeros,Plásticos y Polímeros,Tecnólogo,Inferido por nombre de programa,1,23,Sí,Nivel inferido a partir del nombre; validar contra SOFIA Plus.

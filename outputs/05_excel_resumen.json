@@ -1,0 +1,19 @@
+{
+  "hojas": [
+    "Portada",
+    "Resumen",
+    "Programas",
+    "Fichas",
+    "Cohortes",
+    "Riesgos",
+    "Predictivo",
+    "Diccionario",
+    "Notas"
+  ],
+  "pii_hits": 0,
+  "tamano_bytes": 75226,
+  "matriculas": 1592,
+  "perdidas": 439,
+  "fichas": 56,
+  "programas": 15
+}

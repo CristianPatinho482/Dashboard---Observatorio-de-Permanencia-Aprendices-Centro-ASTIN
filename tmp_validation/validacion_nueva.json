@@ -1,0 +1,58 @@
+{
+  "title": "Caracterización de Aprendices · Centro ASTIN",
+  "h1": "Caracterización de Aprendices Centro ASTIN",
+  "subtitle": "Centro de Formación ASTIN · Snapshot 19 de octubre de 2026 · 56 fichas · 15 programas",
+  "font": "\"Work Sans\", Calibri, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+  "color": "#39A900",
+  "resumen": {
+    "visible": true,
+    "textLen": 2348,
+    "canvases": 2,
+    "tables": 0,
+    "bad": false
+  },
+  "demografia": {
+    "visible": true,
+    "textLen": 1883,
+    "canvases": 2,
+    "tables": 2,
+    "bad": false
+  },
+  "programas": {
+    "visible": true,
+    "textLen": 2168,
+    "canvases": 2,
+    "tables": 1,
+    "bad": false
+  },
+  "fichas": {
+    "visible": true,
+    "textLen": 5778,
+    "canvases": 2,
+    "tables": 1,
+    "bad": false
+  },
+  "temporal": {
+    "visible": true,
+    "textLen": 1760,
+    "canvases": 1,
+    "tables": 1,
+    "bad": false
+  },
+  "riesgos": {
+    "visible": true,
+    "textLen": 6530,
+    "canvases": 1,
+    "tables": 2,
+    "bad": false
+  },
+  "predictivo": {
+    "visible": true,
+    "textLen": 19303,
+    "canvases": 4,
+    "tables": 4,
+    "bad": false
+  },
+  "filtro_nocturna_filas": 19,
+  "errors": []
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "DashboardAprendicesSENA"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d2a980ce-0a45-4bef-8c6e-0cb5c1405957"
+  }
+}

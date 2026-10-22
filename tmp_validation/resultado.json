@@ -1,0 +1,227 @@
+{
+  "results": {
+    "resumen": {
+      "visible": true,
+      "cards": [
+        "1.592",
+        "439",
+        "27,6%",
+        "6",
+        "1.137",
+        "228",
+        "160",
+        "65"
+      ],
+      "tables": [],
+      "canvases": [
+        {
+          "id": "ch-estados",
+          "w": 710,
+          "h": 300
+        },
+        {
+          "id": "ch-riesgo",
+          "w": 639,
+          "h": 300
+        }
+      ],
+      "nan": false,
+      "textLen": 2348
+    },
+    "demografia": {
+      "visible": true,
+      "cards": [],
+      "tables": [
+        {
+          "id": "tb-dominios",
+          "rows": 4,
+          "headers": 3
+        },
+        {
+          "id": "",
+          "rows": 7,
+          "headers": 4
+        }
+      ],
+      "canvases": [
+        {
+          "id": "ch-documentos",
+          "w": 710,
+          "h": 300
+        },
+        {
+          "id": "ch-contacto-prog",
+          "w": 710,
+          "h": 360
+        }
+      ],
+      "nan": false,
+      "textLen": 1883
+    },
+    "programas": {
+      "visible": true,
+      "cards": [],
+      "tables": [
+        {
+          "id": "tb-programas",
+          "rows": 15,
+          "headers": 10
+        }
+      ],
+      "canvases": [
+        {
+          "id": "ch-pareto",
+          "w": 710,
+          "h": 300
+        },
+        {
+          "id": "ch-prog-rate",
+          "w": 639,
+          "h": 300
+        }
+      ],
+      "nan": false,
+      "textLen": 2168
+    },
+    "fichas": {
+      "visible": true,
+      "cards": [],
+      "tables": [
+        {
+          "id": "tb-fichas",
+          "rows": 56,
+          "headers": 12
+        }
+      ],
+      "canvases": [
+        {
+          "id": "ch-fichas-scatter",
+          "w": 710,
+          "h": 360
+        },
+        {
+          "id": "ch-fichas-hist",
+          "w": 639,
+          "h": 360
+        }
+      ],
+      "nan": false,
+      "textLen": 5778
+    },
+    "temporal": {
+      "visible": true,
+      "cards": [],
+      "tables": [
+        {
+          "id": "tb-generaciones",
+          "rows": 17,
+          "headers": 6
+        }
+      ],
+      "canvases": [
+        {
+          "id": "ch-generaciones",
+          "w": 1398,
+          "h": 360
+        }
+      ],
+      "nan": false,
+      "textLen": 1760
+    },
+    "riesgos": {
+      "visible": true,
+      "cards": [
+        "62,1%",
+        "61,3%",
+        "60,0%",
+        "54,4%",
+        "54,8%",
+        "48,7%"
+      ],
+      "tables": [
+        {
+          "id": "tb-validacion",
+          "rows": 4,
+          "headers": 5
+        },
+        {
+          "id": "tb-fichas-riesgo",
+          "rows": 56,
+          "headers": 11
+        }
+      ],
+      "canvases": [
+        {
+          "id": "ch-validacion",
+          "w": 639,
+          "h": 300
+        }
+      ],
+      "nan": false,
+      "textLen": 6530
+    },
+    "predictivo": {
+      "visible": true,
+      "cards": [
+        "0.726",
+        "0.178",
+        "0.048",
+        "0.467"
+      ],
+      "tables": [
+        {
+          "id": "tb-prob-fichas",
+          "rows": 15,
+          "headers": 6
+        },
+        {
+          "id": "tb-proy-prog",
+          "rows": 15,
+          "headers": 5
+        },
+        {
+          "id": "tb-alertas",
+          "rows": 100,
+          "headers": 9
+        },
+        {
+          "id": "tb-coeficientes",
+          "rows": 10,
+          "headers": 4
+        }
+      ],
+      "canvases": [
+        {
+          "id": "ch-calibracion",
+          "w": 710,
+          "h": 300
+        },
+        {
+          "id": "ch-hist-prob",
+          "w": 639,
+          "h": 300
+        },
+        {
+          "id": "ch-prob-fichas",
+          "w": 710,
+          "h": 360
+        },
+        {
+          "id": "ch-proyeccion",
+          "w": 710,
+          "h": 300
+        }
+      ],
+      "nan": false,
+      "textLen": 19303
+    },
+    "filtro_nocturna": {
+      "filas_antes": 56,
+      "filas_despues": 19,
+      "kpi": "Matrículas561Registros en el filtro actual"
+    }
+  },
+  "errors": [
+    "CONSOLE error: Failed to load resource: the server responded with a status of 404 (File not found)"
+  ]
+}

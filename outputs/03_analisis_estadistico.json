@@ -1,0 +1,957 @@
+{
+  "metadata": {
+    "fecha_reporte": "2026-10-19",
+    "fuente": "56 reportes .xls de ficha (snapshot unico)",
+    "filas": 1592,
+    "aprendices_unicos": 1583,
+    "fichas": 56,
+    "programas": 15,
+    "generaciones": 17,
+    "advertencia": "Snapshot transversal sin fechas de matricula, egreso ni certificacion. Los contrastes son exploratorios y no implican causalidad. Las fichas son clusters; los p-valores no corrigen por dependencia intra-ficha."
+  },
+  "resumen": {
+    "matriculas": 1592,
+    "perdidas": 439,
+    "cancelados": 428,
+    "retiros": 11,
+    "activos": 1137,
+    "vinculados": 1144,
+    "trasladados": 9,
+    "tasa_perdida": 0.2758,
+    "ic95_inf": 0.2544,
+    "ic95_sup": 0.2982,
+    "tasa_cancelacion": 0.2688,
+    "tasa_retiro": 0.0069,
+    "tasa_activos": 0.7142,
+    "tasa_vinculados": 0.7186,
+    "contacto_incompleto": 228,
+    "contacto_incompleto_pct": 0.1432
+  },
+  "estados": [
+    {
+      "EstadoID": "E01",
+      "Estado": "EN FORMACION",
+      "Categoria": "Activo",
+      "EsVinculado": "1",
+      "EsActivo": "1",
+      "EsPerdida": "0",
+      "EsCancelado": "0",
+      "EsRetirado": "0",
+      "EsTrasladado": "0",
+      "EsSuspendido": "0",
+      "EsRiesgo": "0",
+      "EsCertificado": "0",
+      "Orden": "1",
+      "ColorHex": "#2E7D32",
+      "Definicion": "Aprendiz con matrícula vigente y formación en curso."
+    },
+    {
+      "EstadoID": "E02",
+      "Estado": "INDUCCION",
+      "Categoria": "Activo",
+      "EsVinculado": "1",
+      "EsActivo": "1",
+      "EsPerdida": "0",
+      "EsCancelado": "0",
+      "EsRetirado": "0",
+      "EsTrasladado": "0",
+      "EsSuspendido": "0",
+      "EsRiesgo": "0",
+      "EsCertificado": "0",
+      "Orden": "2",
+      "ColorHex": "#00897B",
+      "Definicion": "Aprendiz en etapa de inducción, matrícula vigente."
+    },
+    {
+      "EstadoID": "E03",
+      "Estado": "CONDICIONADO",
+      "Categoria": "Activo en riesgo",
+      "EsVinculado": "1",
+      "EsActivo": "1",
+      "EsPerdida": "0",
+      "EsCancelado": "0",
+      "EsRetirado": "0",
+      "EsTrasladado": "0",
+      "EsSuspendido": "0",
+      "EsRiesgo": "1",
+      "EsCertificado": "0",
+      "Orden": "3",
+      "ColorHex": "#F9A825",
+      "Definicion": "Aprendiz con novedad académica o disciplinaria; requiere seguimiento."
+    },
+    {
+      "EstadoID": "E04",
+      "Estado": "APLAZADO",
+      "Categoria": "Suspendido",
+      "EsVinculado": "1",
+      "EsActivo": "0",
+      "EsPerdida": "0",
+      "EsCancelado": "0",
+      "EsRetirado": "0",
+      "EsTrasladado": "0",
+      "EsSuspendido": "1",
+      "EsRiesgo": "1",
+      "EsCertificado": "0",
+      "Orden": "4",
+      "ColorHex": "#EF6C00",
+      "Definicion": "Aprendiz con matrícula aplazada; no está en formación activa."
+    },
+    {
+      "EstadoID": "E05",
+      "Estado": "CANCELADO",
+      "Categoria": "Desertor",
+      "EsVinculado": "0",
+      "EsActivo": "0",
+      "EsPerdida": "1",
+      "EsCancelado": "1",
+      "EsRetirado": "0",
+      "EsTrasladado": "0",
+      "EsSuspendido": "0",
+      "EsRiesgo": "0",
+      "EsCertificado": "0",
+      "Orden": "5",
+      "ColorHex": "#C62828",
+      "Definicion": "Matrícula cancelada. Se contabiliza como deserción."
+    },
+    {
+      "EstadoID": "E06",
+      "Estado": "RETIRO VOLUNTARIO",
+      "Categoria": "Desertor",
+      "EsVinculado": "0",
+      "EsActivo": "0",
+      "EsPerdida": "1",
+      "EsCancelado": "0",
+      "EsRetirado": "1",
+      "EsTrasladado": "0",
+      "EsSuspendido": "0",
+      "EsRiesgo": "0",
+      "EsCertificado": "0",
+      "Orden": "6",
+      "ColorHex": "#8E0000",
+      "Definicion": "Retiro solicitado por el aprendiz. Se contabiliza como deserción."
+    },
+    {
+      "EstadoID": "E07",
+      "Estado": "TRASLADADO",
+      "Categoria": "Egreso por traslado",
+      "EsVinculado": "0",
+      "EsActivo": "0",
+      "EsPerdida": "0",
+      "EsCancelado": "0",
+      "EsRetirado": "0",
+      "EsTrasladado": "1",
+      "EsSuspendido": "0",
+      "EsRiesgo": "0",
+      "EsCertificado": "0",
+      "Orden": "7",
+      "ColorHex": "#546E7A",
+      "Definicion": "Traslado a otra ficha o centro; no se contabiliza como deserción."
+    }
+  ],
+  "jornadas": {
+    "detalle": [
+      {
+        "jornada_id": "J01",
+        "jornada": "DIURNA",
+        "n": 1031,
+        "perdidas": 237,
+        "tasa_perdida": 0.2299,
+        "ic95_inf": 0.2052,
+        "ic95_sup": 0.2565
+      },
+      {
+        "jornada_id": "J02",
+        "jornada": "NOCTURNA",
+        "n": 561,
+        "perdidas": 202,
+        "tasa_perdida": 0.3601,
+        "ic95_inf": 0.3214,
+        "ic95_sup": 0.4006
+      }
+    ],
+    "contraste": {
+      "chi2": 30.189,
+      "gl": 1,
+      "p": 3.919759187001884e-08,
+      "p_texto": "< 0.001",
+      "v_cramer": 0.138,
+      "n": 1592,
+      "esperados_menores_5": 0,
+      "esperados_menores_5_pct": 0.0,
+      "or_diurna_vs_nocturna": 0.53,
+      "or_ic95_inf": 0.423,
+      "or_ic95_sup": 0.665,
+      "fisher_p": 4.345211197377563e-08
+    }
+  },
+  "programas": {
+    "detalle": [
+      {
+        "programa_id": "P04",
+        "programa": "Coordinación en Sistemas Integrados de Gestión",
+        "corto": "Sistemas Integrados de Gestión",
+        "linea": "Gestión y Sistemas",
+        "nivel": "Tecnólogo",
+        "fichas": 15,
+        "matriculas": 484,
+        "perdidas": 153,
+        "cancelados": 147,
+        "activos": 323,
+        "tasa_perdida": 0.3161,
+        "ic95_inf": 0.2763,
+        "ic95_sup": 0.3588,
+        "tasa_ajustada_eb": 0.3153,
+        "eb_ic95_inf": 0.2751,
+        "eb_ic95_sup": 0.3569,
+        "participacion": 0.304,
+        "participacion_acumulada": 0.304,
+        "ranking_tasa": 6,
+        "brecha_vs_global_pp": 4.03
+      },
+      {
+        "programa_id": "P09",
+        "programa": "Gestión de Proyectos de Desarrollo Económico y Social",
+        "corto": "Gestión de Proyectos",
+        "linea": "Gestión y Sistemas",
+        "nivel": "Tecnólogo",
+        "fichas": 9,
+        "matriculas": 235,
+        "perdidas": 66,
+        "cancelados": 61,
+        "activos": 165,
+        "tasa_perdida": 0.2809,
+        "ic95_inf": 0.2273,
+        "ic95_sup": 0.3415,
+        "tasa_ajustada_eb": 0.2806,
+        "eb_ic95_inf": 0.2263,
+        "eb_ic95_sup": 0.3384,
+        "participacion": 0.1476,
+        "participacion_acumulada": 0.4516,
+        "ranking_tasa": 9,
+        "brecha_vs_global_pp": 0.51
+      },
+      {
+        "programa_id": "P10",
+        "programa": "Gestión de la Producción Industrial",
+        "corto": "Producción Industrial",
+        "linea": "Producción Industrial",
+        "nivel": "Tecnólogo",
+        "fichas": 6,
+        "matriculas": 183,
+        "perdidas": 58,
+        "cancelados": 58,
+        "activos": 125,
+        "tasa_perdida": 0.3169,
+        "ic95_inf": 0.2539,
+        "ic95_sup": 0.3875,
+        "tasa_ajustada_eb": 0.3148,
+        "eb_ic95_inf": 0.2514,
+        "eb_ic95_sup": 0.3819,
+        "participacion": 0.1149,
+        "participacion_acumulada": 0.5665,
+        "ranking_tasa": 7,
+        "brecha_vs_global_pp": 4.11
+      },
+      {
+        "programa_id": "P12",
+        "programa": "Monitoreo Ambiental",
+        "corto": "Monitoreo Ambiental",
+        "linea": "Ambiental",
+        "nivel": "Tecnólogo",
+        "fichas": 4,
+        "matriculas": 149,
+        "perdidas": 16,
+        "cancelados": 16,
+        "activos": 133,
+        "tasa_perdida": 0.1074,
+        "ic95_inf": 0.0672,
+        "ic95_sup": 0.1673,
+        "tasa_ajustada_eb": 0.118,
+        "eb_ic95_inf": 0.0727,
+        "eb_ic95_sup": 0.1723,
+        "participacion": 0.0936,
+        "participacion_acumulada": 0.6601,
+        "ranking_tasa": 12,
+        "brecha_vs_global_pp": -16.84
+      },
+      {
+        "programa_id": "P14",
+        "programa": "Química Aplicada a la Industria",
+        "corto": "Química Aplicada",
+        "linea": "Química y Laboratorio",
+        "nivel": "Tecnólogo",
+        "fichas": 4,
+        "matriculas": 113,
+        "perdidas": 40,
+        "cancelados": 40,
+        "activos": 72,
+        "tasa_perdida": 0.354,
+        "ic95_inf": 0.2719,
+        "ic95_sup": 0.4456,
+        "tasa_ajustada_eb": 0.3476,
+        "eb_ic95_inf": 0.2663,
+        "eb_ic95_sup": 0.4336,
+        "participacion": 0.071,
+        "participacion_acumulada": 0.7311,
+        "ranking_tasa": 3,
+        "brecha_vs_global_pp": 7.82
+      },
+      {
+        "programa_id": "P06",
+        "programa": "Desarrollo y Modelado de Productos Industriales",
+        "corto": "Modelado de Productos",
+        "linea": "Diseño y Manufactura",
+        "nivel": "Tecnólogo",
+        "fichas": 4,
+        "matriculas": 101,
+        "perdidas": 23,
+        "cancelados": 23,
+        "activos": 77,
+        "tasa_perdida": 0.2277,
+        "ic95_inf": 0.1568,
+        "ic95_sup": 0.3186,
+        "tasa_ajustada_eb": 0.232,
+        "eb_ic95_inf": 0.1587,
+        "eb_ic95_sup": 0.3146,
+        "participacion": 0.0634,
+        "participacion_acumulada": 0.7945,
+        "ranking_tasa": 11,
+        "brecha_vs_global_pp": -4.81
+      },
+      {
+        "programa_id": "P05",
+        "programa": "Desarrollo de Componentes Mecánicos",
+        "corto": "Componentes Mecánicos",
+        "linea": "Metalmecánica y Materiales",
+        "nivel": "Tecnólogo",
+        "fichas": 3,
+        "matriculas": 84,
+        "perdidas": 20,
+        "cancelados": 20,
+        "activos": 64,
+        "tasa_perdida": 0.2381,
+        "ic95_inf": 0.1597,
+        "ic95_sup": 0.3394,
+        "tasa_ajustada_eb": 0.2421,
+        "eb_ic95_inf": 0.1615,
+        "eb_ic95_sup": 0.3331,
+        "participacion": 0.0528,
+        "participacion_acumulada": 0.8473,
+        "ranking_tasa": 10,
+        "brecha_vs_global_pp": -3.77
+      },
+      {
+        "programa_id": "P07",
+        "programa": "Fabricación de Moldes y Troqueles",
+        "corto": "Moldes y Troqueles",
+        "linea": "Metalmecánica y Materiales",
+        "nivel": "Tecnólogo",
+        "fichas": 2,
+        "matriculas": 53,
+        "perdidas": 19,
+        "cancelados": 19,
+        "activos": 34,
+        "tasa_perdida": 0.3585,
+        "ic95_inf": 0.243,
+        "ic95_sup": 0.4931,
+        "tasa_ajustada_eb": 0.3454,
+        "eb_ic95_inf": 0.234,
+        "eb_ic95_sup": 0.466,
+        "participacion": 0.0333,
+        "participacion_acumulada": 0.8806,
+        "ranking_tasa": 4,
+        "brecha_vs_global_pp": 8.27
+      },
+      {
+        "programa_id": "P11",
+        "programa": "Modelado 3D para la Industria",
+        "corto": "Modelado 3D",
+        "linea": "Diseño y Manufactura",
+        "nivel": "Tecnólogo",
+        "fichas": 2,
+        "matriculas": 52,
+        "perdidas": 16,
+        "cancelados": 16,
+        "activos": 36,
+        "tasa_perdida": 0.3077,
+        "ic95_inf": 0.1991,
+        "ic95_sup": 0.4427,
+        "tasa_ajustada_eb": 0.3025,
+        "eb_ic95_inf": 0.1957,
+        "eb_ic95_sup": 0.4215,
+        "participacion": 0.0327,
+        "participacion_acumulada": 0.9133,
+        "ranking_tasa": 8,
+        "brecha_vs_global_pp": 3.19
+      },
+      {
+        "programa_id": "P02",
+        "programa": "Análisis de Materiales para la Industria",
+        "corto": "Análisis de Materiales",
+        "linea": "Química y Laboratorio",
+        "nivel": "Tecnólogo",
+        "fichas": 2,
+        "matriculas": 38,
+        "perdidas": 14,
+        "cancelados": 14,
+        "activos": 23,
+        "tasa_perdida": 0.3684,
+        "ic95_inf": 0.2338,
+        "ic95_sup": 0.5272,
+        "tasa_ajustada_eb": 0.3491,
+        "eb_ic95_inf": 0.2223,
+        "eb_ic95_sup": 0.4878,
+        "participacion": 0.0239,
+        "participacion_acumulada": 0.9372,
+        "ranking_tasa": 2,
+        "brecha_vs_global_pp": 9.26
+      },
+      {
+        "programa_id": "P13",
+        "programa": "Procesos de Manufactura (Baxter)",
+        "corto": "Manufactura Baxter",
+        "linea": "Metalmecánica y Materiales",
+        "nivel": "Técnico",
+        "fichas": 1,
+        "matriculas": 26,
+        "perdidas": 0,
+        "cancelados": 0,
+        "activos": 26,
+        "tasa_perdida": 0.0,
+        "ic95_inf": 0.0,
+        "ic95_sup": 0.1287,
+        "tasa_ajustada_eb": 0.0766,
+        "eb_ic95_inf": 0.015,
+        "eb_ic95_sup": 0.1817,
+        "participacion": 0.0163,
+        "participacion_acumulada": 0.9535,
+        "ranking_tasa": 15,
+        "brecha_vs_global_pp": -27.58
+      },
+      {
+        "programa_id": "P15",
+        "programa": "Transformación de Polímeros por Inyección",
+        "corto": "Transformación de Polímeros",
+        "linea": "Plásticos y Polímeros",
+        "nivel": "Tecnólogo",
+        "fichas": 1,
+        "matriculas": 23,
+        "perdidas": 0,
+        "cancelados": 0,
+        "activos": 23,
+        "tasa_perdida": 0.0,
+        "ic95_inf": 0.0,
+        "ic95_sup": 0.1431,
+        "tasa_ajustada_eb": 0.0836,
+        "eb_ic95_inf": 0.0165,
+        "eb_ic95_sup": 0.1974,
+        "participacion": 0.0144,
+        "participacion_acumulada": 0.9679,
+        "ranking_tasa": 14,
+        "brecha_vs_global_pp": -27.58
+      },
+      {
+        "programa_id": "P08",
+        "programa": "Fabricación de Productos Plásticos por Inyección y Soplado",
+        "corto": "Productos Plásticos",
+        "linea": "Plásticos y Polímeros",
+        "nivel": "Tecnólogo",
+        "fichas": 1,
+        "matriculas": 19,
+        "perdidas": 7,
+        "cancelados": 7,
+        "activos": 11,
+        "tasa_perdida": 0.3684,
+        "ic95_inf": 0.1915,
+        "ic95_sup": 0.5896,
+        "tasa_ajustada_eb": 0.3365,
+        "eb_ic95_inf": 0.1796,
+        "eb_ic95_sup": 0.5147,
+        "participacion": 0.0119,
+        "participacion_acumulada": 0.9798,
+        "ranking_tasa": 5,
+        "brecha_vs_global_pp": 9.26
+      },
+      {
+        "programa_id": "P01",
+        "programa": "Alistamiento de Laboratorios de Análisis y Ensayos para la Industria",
+        "corto": "Alistamiento de Laboratorios",
+        "linea": "Química y Laboratorio",
+        "nivel": "Técnico",
+        "fichas": 1,
+        "matriculas": 18,
+        "perdidas": 0,
+        "cancelados": 0,
+        "activos": 18,
+        "tasa_perdida": 0.0,
+        "ic95_inf": 0.0,
+        "ic95_sup": 0.1759,
+        "tasa_ajustada_eb": 0.0985,
+        "eb_ic95_inf": 0.0196,
+        "eb_ic95_sup": 0.2305,
+        "participacion": 0.0113,
+        "participacion_acumulada": 0.9911,
+        "ranking_tasa": 13,
+        "brecha_vs_global_pp": -27.58
+      },
+      {
+        "programa_id": "P03",
+        "programa": "Aplicación de Procedimientos de Laboratorio Químico",
+        "corto": "Procedimientos de Laboratorio",
+        "linea": "Química y Laboratorio",
+        "nivel": "Técnico",
+        "fichas": 1,
+        "matriculas": 14,
+        "perdidas": 7,
+        "cancelados": 7,
+        "activos": 7,
+        "tasa_perdida": 0.5,
+        "ic95_inf": 0.268,
+        "ic95_sup": 0.732,
+        "tasa_ajustada_eb": 0.4066,
+        "eb_ic95_inf": 0.2233,
+        "eb_ic95_sup": 0.6046,
+        "participacion": 0.0088,
+        "participacion_acumulada": 0.9999,
+        "ranking_tasa": 1,
+        "brecha_vs_global_pp": 22.42
+      }
+    ],
+    "contraste": {
+      "chi2": 65.477,
+      "gl": 14,
+      "p": 1.2573003439083823e-08,
+      "p_texto": "< 0.001",
+      "v_cramer": 0.203,
+      "n": 1592,
+      "esperados_menores_5": 2,
+      "esperados_menores_5_pct": 0.067,
+      "p_montecarlo": 0.0001999600079984003,
+      "simulaciones": 5000
+    },
+    "concentracion": {
+      "hhi_programas": 0.1516,
+      "numero_efectivo_programas": 6.6,
+      "top3_participacion": 0.5665,
+      "gini_tamano_fichas": 0.1203,
+      "ficha_mas_grande": 50,
+      "ficha_mas_pequena": 14,
+      "nota": "HHI sobre participacion de matricula por programa. Gini sobre tamano de ficha."
+    }
+  },
+  "documentos": {
+    "detalle": [
+      {
+        "tipo_documento": "CC",
+        "n": 1296,
+        "perdidas": 362,
+        "tasa_perdida": 0.2793,
+        "ic95_inf": 0.2556,
+        "ic95_sup": 0.3044
+      },
+      {
+        "tipo_documento": "CE",
+        "n": 1,
+        "perdidas": 1,
+        "tasa_perdida": 1.0,
+        "ic95_inf": 0.2065,
+        "ic95_sup": 1.0
+      },
+      {
+        "tipo_documento": "PPT",
+        "n": 18,
+        "perdidas": 4,
+        "tasa_perdida": 0.2222,
+        "ic95_inf": 0.09,
+        "ic95_sup": 0.4522
+      },
+      {
+        "tipo_documento": "TI",
+        "n": 277,
+        "perdidas": 72,
+        "tasa_perdida": 0.2599,
+        "ic95_inf": 0.2118,
+        "ic95_sup": 0.3146
+      }
+    ],
+    "contraste": {
+      "chi2": 3.315,
+      "gl": 3,
+      "p": 0.3456070585862025,
+      "p_texto": "0.346",
+      "v_cramer": 0.046,
+      "n": 1592,
+      "esperados_menores_5": 3,
+      "esperados_menores_5_pct": 0.375
+    }
+  },
+  "contacto": {
+    "contraste": {
+      "chi2": 0.812,
+      "gl": 1,
+      "p": 0.36755166690610297,
+      "p_texto": "0.368",
+      "v_cramer": 0.023,
+      "n": 1592,
+      "esperados_menores_5": 0,
+      "esperados_menores_5_pct": 0.0,
+      "or_incompleto_vs_completo": 1.166,
+      "or_ic95_inf": 0.858,
+      "or_ic95_sup": 1.584,
+      "or_ajustado_por_programa": {
+        "or_mh": 0.651,
+        "ic95_inf": 0.463,
+        "ic95_sup": 0.916,
+        "estratos_validos": 15
+      },
+      "nota": "El contacto incompleto se concentra en cohortes nuevas (0% de perdida) y en programas con menor perdida; por eso la asociacion cruda es nula y la ajustada por programa invierte el signo. No debe usarse como factor de riesgo de desercion: es un indicador de calidad/contactabilidad y de actualizacion de datos."
+    }
+  },
+  "fichas_distribucion": {
+    "n_fichas": 56,
+    "media": 0.2726,
+    "mediana": 0.268,
+    "desv_estandar": 0.1973,
+    "min": 0.0,
+    "q1": 0.0744,
+    "q3": 0.4351,
+    "max": 0.6207,
+    "iqr": 0.3607,
+    "coef_variacion": 0.7236,
+    "asimetria": -0.0667,
+    "curtosis": -1.1855,
+    "outliers_alto": [],
+    "outliers_bajo": []
+  },
+  "correlaciones": {
+    "tamano_ficha_vs_tasa_perdida": {
+      "pearson_r": 0.07,
+      "pearson_p": 0.6085333228386007,
+      "spearman_rho": 0.036,
+      "spearman_p": 0.7908171899421803
+    },
+    "contacto_incompleto_vs_tasa_perdida": {
+      "pearson_r": -0.395,
+      "pearson_p": 0.0025713278493940213,
+      "spearman_rho": -0.301,
+      "spearman_p": 0.024005203445438536,
+      "nota": "Asociacion negativa: las fichas con mas contacto incompleto son cohortes nuevas con menor perdida. Confusion por cohorte; no interpretar como protector."
+    },
+    "indice_riesgo_vs_tasa_perdida": {
+      "spearman_rho": 0.992,
+      "spearman_p": 4.490511985358105e-50,
+      "nota": "Diagnostico interno: el indice incorpora la tasa de perdida."
+    }
+  },
+  "tendencia_generaciones": {
+    "detalle": [
+      {
+        "generacion_id": "GEN-314",
+        "generacion": "Generación 314",
+        "orden": 1,
+        "fichas": 4,
+        "n": 121,
+        "perdidas": 60,
+        "tasa_perdida": 0.4959
+      },
+      {
+        "generacion_id": "GEN-317",
+        "generacion": "Generación 317",
+        "orden": 2,
+        "fichas": 8,
+        "n": 230,
+        "perdidas": 100,
+        "tasa_perdida": 0.4348
+      },
+      {
+        "generacion_id": "GEN-318",
+        "generacion": "Generación 318",
+        "orden": 3,
+        "fichas": 2,
+        "n": 50,
+        "perdidas": 26,
+        "tasa_perdida": 0.52
+      },
+      {
+        "generacion_id": "GEN-323",
+        "generacion": "Generación 323",
+        "orden": 4,
+        "fichas": 1,
+        "n": 24,
+        "perdidas": 10,
+        "tasa_perdida": 0.4167
+      },
+      {
+        "generacion_id": "GEN-330",
+        "generacion": "Generación 330",
+        "orden": 5,
+        "fichas": 4,
+        "n": 146,
+        "perdidas": 64,
+        "tasa_perdida": 0.4384
+      },
+      {
+        "generacion_id": "GEN-331",
+        "generacion": "Generación 331",
+        "orden": 6,
+        "fichas": 1,
+        "n": 26,
+        "perdidas": 6,
+        "tasa_perdida": 0.2308
+      },
+      {
+        "generacion_id": "GEN-335",
+        "generacion": "Generación 335",
+        "orden": 7,
+        "fichas": 3,
+        "n": 74,
+        "perdidas": 35,
+        "tasa_perdida": 0.473
+      },
+      {
+        "generacion_id": "GEN-340",
+        "generacion": "Generación 340",
+        "orden": 8,
+        "fichas": 5,
+        "n": 100,
+        "perdidas": 32,
+        "tasa_perdida": 0.32
+      },
+      {
+        "generacion_id": "GEN-341",
+        "generacion": "Generación 341",
+        "orden": 9,
+        "fichas": 9,
+        "n": 275,
+        "perdidas": 61,
+        "tasa_perdida": 0.2218
+      },
+      {
+        "generacion_id": "GEN-343",
+        "generacion": "Generación 343",
+        "orden": 10,
+        "fichas": 1,
+        "n": 21,
+        "perdidas": 1,
+        "tasa_perdida": 0.0476
+      },
+      {
+        "generacion_id": "GEN-344",
+        "generacion": "Generación 344",
+        "orden": 11,
+        "fichas": 6,
+        "n": 191,
+        "perdidas": 44,
+        "tasa_perdida": 0.2304
+      },
+      {
+        "generacion_id": "GEN-345",
+        "generacion": "Generación 345",
+        "orden": 12,
+        "fichas": 1,
+        "n": 23,
+        "perdidas": 0,
+        "tasa_perdida": 0.0
+      },
+      {
+        "generacion_id": "GEN-346",
+        "generacion": "Generación 346",
+        "orden": 13,
+        "fichas": 2,
+        "n": 69,
+        "perdidas": 0,
+        "tasa_perdida": 0.0
+      },
+      {
+        "generacion_id": "GEN-349",
+        "generacion": "Generación 349",
+        "orden": 14,
+        "fichas": 2,
+        "n": 60,
+        "perdidas": 0,
+        "tasa_perdida": 0.0
+      },
+      {
+        "generacion_id": "GEN-353",
+        "generacion": "Generación 353",
+        "orden": 15,
+        "fichas": 3,
+        "n": 85,
+        "perdidas": 0,
+        "tasa_perdida": 0.0
+      },
+      {
+        "generacion_id": "GEN-356",
+        "generacion": "Generación 356",
+        "orden": 16,
+        "fichas": 2,
+        "n": 49,
+        "perdidas": 0,
+        "tasa_perdida": 0.0
+      },
+      {
+        "generacion_id": "GEN-358",
+        "generacion": "Generación 358",
+        "orden": 17,
+        "fichas": 2,
+        "n": 48,
+        "perdidas": 0,
+        "tasa_perdida": 0.0
+      }
+    ],
+    "cochran_armitage": {
+      "z": -14.688,
+      "p": 0.0,
+      "p_texto": "< 0.001",
+      "pendiente_pp_por_generacion": -3.516
+    },
+    "spearman_orden_vs_tasa": {
+      "rho": -0.921,
+      "p": 1.616845612690693e-07
+    },
+    "pearson_orden_vs_tasa": {
+      "r": -0.917,
+      "p": 2.207873966746618e-07
+    },
+    "nota": "El prefijo de ficha se usa como proxy de generacion/antiguedad. No equivale a ano calendario ni a fecha de matricula; la tendencia es descriptiva."
+  },
+  "bandas_tamano_ficha": [
+    {
+      "banda": "< 20",
+      "fichas": 5,
+      "n": 88,
+      "perdidas": 30,
+      "tasa_perdida": 0.3409
+    },
+    {
+      "banda": "20-29",
+      "fichas": 22,
+      "n": 548,
+      "perdidas": 148,
+      "tasa_perdida": 0.2701
+    },
+    {
+      "banda": "30-39",
+      "fichas": 27,
+      "n": 860,
+      "perdidas": 220,
+      "tasa_perdida": 0.2558
+    },
+    {
+      "banda": "40+",
+      "fichas": 2,
+      "n": 96,
+      "perdidas": 41,
+      "tasa_perdida": 0.4271
+    }
+  ],
+  "validacion_riesgo": [
+    {
+      "nivel": "Bajo",
+      "fichas": 28,
+      "n": 789,
+      "perdidas": 87,
+      "tasa_perdida": 0.1103,
+      "indice_promedio": 24.6
+    },
+    {
+      "nivel": "Medio",
+      "fichas": 14,
+      "n": 389,
+      "perdidas": 137,
+      "tasa_perdida": 0.3522,
+      "indice_promedio": 62.7
+    },
+    {
+      "nivel": "Alto",
+      "fichas": 8,
+      "n": 208,
+      "perdidas": 99,
+      "tasa_perdida": 0.476,
+      "indice_promedio": 82.7
+    },
+    {
+      "nivel": "Crítico",
+      "fichas": 6,
+      "n": 206,
+      "perdidas": 116,
+      "tasa_perdida": 0.5631,
+      "indice_promedio": 95.5
+    }
+  ],
+  "calidad_datos": {
+    "sin_celular": 208,
+    "sin_celular_pct": 0.1307,
+    "celular_invalido": 228,
+    "celular_invalido_pct": 0.1432,
+    "email_invalido": 0,
+    "contacto_incompleto": 228,
+    "contacto_incompleto_pct": 0.1432,
+    "aprendices_unicos": 1583,
+    "aprendices_multi_ficha": 9,
+    "matriculas_multi_ficha": 18,
+    "documentos": {
+      "CC": 1296,
+      "PPT": 18,
+      "TI": 277,
+      "CE": 1
+    },
+    "dominios_email_top": [
+      [
+        "gmail.com",
+        1387
+      ],
+      [
+        "hotmail.com",
+        141
+      ],
+      [
+        "cali.edu.co",
+        9
+      ],
+      [
+        "outlook.com",
+        8
+      ],
+      [
+        "icloud.com",
+        8
+      ],
+      [
+        "outlook.es",
+        5
+      ],
+      [
+        "hotmail.es",
+        4
+      ],
+      [
+        "correounivalle.edu.co",
+        4
+      ],
+      [
+        "soy.sena.edu.co",
+        4
+      ],
+      [
+        "yahoo.es",
+        3
+      ]
+    ],
+    "sin_genero": 1583,
+    "sin_municipio": 1583
+  },
+  "poder_estadistico": {
+    "tasa_base": 0.2758,
+    "n": 1592,
+    "mde_dos_grupos_iguales_pp_80pct": 6.28,
+    "nota": "Diferencia minima detectable entre dos grupos de igual tamano, prueba bilateral alpha=0.05, poder=80%, aproximacion normal. Con 56 fichas y clusters, los contrastes por ficha tienen baja potencia."
+  },
+  "recomendaciones_metodologicas": [
+    "Reportar intervalos de confianza junto con las tasas; evitar rankings por tasa puntual en fichas pequenas.",
+    "No comparar programas o jornadas como si hubiera asignacion aleatoria: hay autoseleccion y confusion por ficha.",
+    "Los contrastes por ficha y por generacion son exploratorios; validar con datos longitudinales.",
+    "Para inferencia causal se requiere fecha de matricula, fecha de retiro, motivo y variables socioeconomicas.",
+    "El contacto incompleto no es factor de riesgo: esta confundido con la antiguedad de la cohorte. Usarlo solo para gestion de contactabilidad."
+  ]
+}

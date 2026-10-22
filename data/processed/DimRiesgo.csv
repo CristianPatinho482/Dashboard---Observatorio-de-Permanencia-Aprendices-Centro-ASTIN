@@ -1,0 +1,5 @@
+﻿NivelRiesgo,Orden,PercentilMin,PercentilMax,ColorHex,Criterio,Accion
+Bajo,1,0,49.999,#39A900,Percentil de la tasa de pérdida ajustada < 50,Monitoreo rutinario.
+Medio,2,50,74.999,#FDC300,Percentil de la tasa de pérdida ajustada entre 50 y 75,Seguimiento mensual y refuerzo preventivo.
+Alto,3,75,89.999,#EF6C00,Percentil de la tasa de pérdida ajustada entre 75 y 90,Plan de acción en 30 días; alerta a coordinación.
+Crítico,4,90,100,#C62828,Percentil de la tasa de pérdida ajustada ≥ 90 (decil superior),Intervención inmediata; comité académico en 8 días.

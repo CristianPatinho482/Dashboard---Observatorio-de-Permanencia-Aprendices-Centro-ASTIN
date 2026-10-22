@@ -1,0 +1,1051 @@
+{
+  "fuente": "C:\\Users\\capatino\\Desktop\\Base de datos aprendices centro",
+  "archivos": 56,
+  "filas": 1592,
+  "fichas": 56,
+  "fichas_unicas": 56,
+  "programas": 15,
+  "jornadas": {
+    "NOCTURNA": 19,
+    "DIURNA": 37
+  },
+  "estados_ficha": {
+    "EN EJECUCION": 56
+  },
+  "fechas_reporte": {
+    "2026-10-19": 56
+  },
+  "tamano_ficha": {
+    "min": 14,
+    "max": 50,
+    "total": 1592
+  },
+  "columnas": [
+    "Apellidos",
+    "Celular",
+    "Correo Electrónico",
+    "Estado",
+    "Nombre",
+    "Número de Documento",
+    "Tipo de Documento"
+  ],
+  "estados_aprendiz": {
+    "CANCELADO": 428,
+    "EN FORMACION": 1112,
+    "RETIRO VOLUNTARIO": 11,
+    "APLAZADO": 7,
+    "TRASLADADO": 9,
+    "CONDICIONADO": 6,
+    "INDUCCION": 19
+  },
+  "tipos_documento": {
+    "CC": 1296,
+    "PPT": 18,
+    "TI": 277,
+    "CE": 1
+  },
+  "documentos": {
+    "distintos": 1583,
+    "duplicados": 9,
+    "filas_duplicadas": 18,
+    "duplicados_misma_ficha": 0,
+    "duplicados_entre_fichas": 9,
+    "longitudes": {
+      "10": 1444,
+      "8": 127,
+      "6": 2,
+      "7": 19
+    },
+    "vacios": 0
+  },
+  "contacto": {
+    "celular_vacio": 208,
+    "celular_valido": 1364,
+    "celular_longitudes": {
+      "10": 1364,
+      "7": 8,
+      "9": 4,
+      "12": 7,
+      "11": 1
+    },
+    "correo_vacio": 0,
+    "correo_valido": 1592,
+    "correo_duplicado": 9,
+    "dominios": {
+      "gmail.com": 1396,
+      "hotmail.com": 141,
+      "cali.edu.co": 9,
+      "outlook.com": 8,
+      "icloud.com": 8,
+      "outlook.es": 5,
+      "hotmail.es": 4,
+      "correounivalle.edu.co": 4,
+      "soy.sena.edu.co": 4,
+      "yahoo.es": 3,
+      "misena.edu.co": 2,
+      "yahoo.com": 2
+    },
+    "nombres_repetidos": 9
+  },
+  "programas_detalle": [
+    {
+      "programa": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "fichas": 15,
+      "aprendices": 484
+    },
+    {
+      "programa": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "fichas": 9,
+      "aprendices": 235
+    },
+    {
+      "programa": "GESTIÓN DE LA PRODUCCIÓN INDUSTRIAL",
+      "fichas": 6,
+      "aprendices": 183
+    },
+    {
+      "programa": "MONITOREO AMBIENTAL",
+      "fichas": 4,
+      "aprendices": 149
+    },
+    {
+      "programa": "QUÍMICA APLICADA A LA INDUSTRIA",
+      "fichas": 4,
+      "aprendices": 113
+    },
+    {
+      "programa": "DESARROLLO Y MODELADO DE PRODUCTOS INDUSTRIALES.",
+      "fichas": 4,
+      "aprendices": 101
+    },
+    {
+      "programa": "DESARROLLO DE COMPONENTES MECANICOS",
+      "fichas": 3,
+      "aprendices": 84
+    },
+    {
+      "programa": "FABRICACIÓN DE MOLDES Y TROQUELES",
+      "fichas": 2,
+      "aprendices": 53
+    },
+    {
+      "programa": "MODELADO 3D PARA LA INDUSTRIA",
+      "fichas": 2,
+      "aprendices": 52
+    },
+    {
+      "programa": "ANÁLISIS DE MATERIALES PARA LA INDUSTRIA",
+      "fichas": 2,
+      "aprendices": 38
+    },
+    {
+      "programa": "PROCESOS DE MANUFACTURA.",
+      "fichas": 1,
+      "aprendices": 26
+    },
+    {
+      "programa": "TRANSFORMACION DE POLIMEROS POR INYECCION",
+      "fichas": 1,
+      "aprendices": 23
+    },
+    {
+      "programa": "FABRICACIÓN DE PRODUCTOS PLÁSTICOS POR INYECCIÓN Y SOPLADO",
+      "fichas": 1,
+      "aprendices": 19
+    },
+    {
+      "programa": "ALISTAMIENTO DE LABORATORIOS DE ANALISIS Y ENSAYOS PARA LA INDUSTRIA",
+      "fichas": 1,
+      "aprendices": 18
+    },
+    {
+      "programa": "APLICACION DE PROCEDIMIENTOS DE LABORATORIO QUIMICO",
+      "fichas": 1,
+      "aprendices": 14
+    }
+  ],
+  "fichas_detalle": [
+    {
+      "archivo": "Aprendices_3141025_NOCTURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3141025",
+      "ficha_titulo": "3141025",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 31,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3141029_NOCTURNA_GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL.xls",
+      "ficha": "3141029",
+      "ficha_titulo": "3141029",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "programa_slug": "GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3145899_DIURNA_QUIMICA_APLICADA_A_LA_INDUSTRIA.xls",
+      "ficha": "3145899",
+      "ficha_titulo": "3145899",
+      "jornada": "DIURNA",
+      "programa_titulo": "QUÍMICA APLICADA A LA INDUSTRIA",
+      "programa_slug": "QUIMICA_APLICADA_A_LA_INDUSTRIA",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3145900_NOCTURNA_GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL.xls",
+      "ficha": "3145900",
+      "ficha_titulo": "3145900",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "programa_slug": "GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3171493_NOCTURNA_GESTION_DE_LA_PRODUCCION_INDUSTRIAL.xls",
+      "ficha": "3171493",
+      "ficha_titulo": "3171493",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "GESTIÓN DE LA PRODUCCIÓN INDUSTRIAL",
+      "programa_slug": "GESTION_DE_LA_PRODUCCION_INDUSTRIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 29,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3171542_DIURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3171542",
+      "ficha_titulo": "3171542",
+      "jornada": "DIURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 39,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3171560_DIURNA_GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL.xls",
+      "ficha": "3171560",
+      "ficha_titulo": "3171560",
+      "jornada": "DIURNA",
+      "programa_titulo": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "programa_slug": "GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 26,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3171643_DIURNA_ANALISIS_DE_MATERIALES_PARA_LA_INDUSTRIA.xls",
+      "ficha": "3171643",
+      "ficha_titulo": "3171643",
+      "jornada": "DIURNA",
+      "programa_titulo": "ANÁLISIS DE MATERIALES PARA LA INDUSTRIA",
+      "programa_slug": "ANALISIS_DE_MATERIALES_PARA_LA_INDUSTRIA",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 18,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3179874_DIURNA_QUIMICA_APLICADA_A_LA_INDUSTRIA.xls",
+      "ficha": "3179874",
+      "ficha_titulo": "3179874",
+      "jornada": "DIURNA",
+      "programa_titulo": "QUÍMICA APLICADA A LA INDUSTRIA",
+      "programa_slug": "QUIMICA_APLICADA_A_LA_INDUSTRIA",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 29,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3179876_NOCTURNA_GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL.xls",
+      "ficha": "3179876",
+      "ficha_titulo": "3179876",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "programa_slug": "GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 26,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3179885_DIURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3179885",
+      "ficha_titulo": "3179885",
+      "jornada": "DIURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 33,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3179887_NOCTURNA_GESTION_DE_LA_PRODUCCION_INDUSTRIAL.xls",
+      "ficha": "3179887",
+      "ficha_titulo": "3179887",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "GESTIÓN DE LA PRODUCCIÓN INDUSTRIAL",
+      "programa_slug": "GESTION_DE_LA_PRODUCCION_INDUSTRIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3181464_NOCTURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3181464",
+      "ficha_titulo": "3181464",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 31,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3181490_DIURNA_DESARROLLO_Y_MODELADO_DE_PRODUCTOS_INDUSTRIALES.xls",
+      "ficha": "3181490",
+      "ficha_titulo": "3181490",
+      "jornada": "DIURNA",
+      "programa_titulo": "DESARROLLO Y MODELADO DE PRODUCTOS INDUSTRIALES.",
+      "programa_slug": "DESARROLLO_Y_MODELADO_DE_PRODUCTOS_INDUSTRIALES",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 19,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3237684_DIURNA_QUIMICA_APLICADA_A_LA_INDUSTRIA.xls",
+      "ficha": "3237684",
+      "ficha_titulo": "3237684",
+      "jornada": "DIURNA",
+      "programa_titulo": "QUÍMICA APLICADA A LA INDUSTRIA",
+      "programa_slug": "QUIMICA_APLICADA_A_LA_INDUSTRIA",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 24,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3302143_DIURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3302143",
+      "ficha_titulo": "3302143",
+      "jornada": "DIURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 39,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3302147_DIURNA_GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL.xls",
+      "ficha": "3302147",
+      "ficha_titulo": "3302147",
+      "jornada": "DIURNA",
+      "programa_titulo": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "programa_slug": "GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3302821_NOCTURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3302821",
+      "ficha_titulo": "3302821",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 46,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3302824_NOCTURNA_GESTION_DE_LA_PRODUCCION_INDUSTRIAL.xls",
+      "ficha": "3302824",
+      "ficha_titulo": "3302824",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "GESTIÓN DE LA PRODUCCIÓN INDUSTRIAL",
+      "programa_slug": "GESTION_DE_LA_PRODUCCION_INDUSTRIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 31,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3316128_DIURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3316128",
+      "ficha_titulo": "3316128",
+      "jornada": "DIURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 26,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3350110_NOCTURNA_DESARROLLO_DE_COMPONENTES_MECANICOS.xls",
+      "ficha": "3350110",
+      "ficha_titulo": "3350110",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "DESARROLLO DE COMPONENTES MECANICOS",
+      "programa_slug": "DESARROLLO_DE_COMPONENTES_MECANICOS",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 24,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3350113_NOCTURNA_FABRICACION_DE_MOLDES_Y_TROQUELES.xls",
+      "ficha": "3350113",
+      "ficha_titulo": "3350113",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "FABRICACIÓN DE MOLDES Y TROQUELES",
+      "programa_slug": "FABRICACION_DE_MOLDES_Y_TROQUELES",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 27,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3350115_DIURNA_DESARROLLO_Y_MODELADO_DE_PRODUCTOS_INDUSTRIALES.xls",
+      "ficha": "3350115",
+      "ficha_titulo": "3350115",
+      "jornada": "DIURNA",
+      "programa_titulo": "DESARROLLO Y MODELADO DE PRODUCTOS INDUSTRIALES.",
+      "programa_slug": "DESARROLLO_Y_MODELADO_DE_PRODUCTOS_INDUSTRIALES",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 23,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3406050_NOCTURNA_FABRICACION_DE_PRODUCTOS_PLASTICOS_POR_INYECCION_Y_SOPLADO.xls",
+      "ficha": "3406050",
+      "ficha_titulo": "3406050",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "FABRICACIÓN DE PRODUCTOS PLÁSTICOS POR INYECCIÓN Y SOPLADO",
+      "programa_slug": "FABRICACION_DE_PRODUCTOS_PLASTICOS_POR_INYECCION_Y_SOPLADO",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 19,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3406053_DIURNA_ANALISIS_DE_MATERIALES_PARA_LA_INDUSTRIA.xls",
+      "ficha": "3406053",
+      "ficha_titulo": "3406053",
+      "jornada": "DIURNA",
+      "programa_titulo": "ANÁLISIS DE MATERIALES PARA LA INDUSTRIA",
+      "programa_slug": "ANALISIS_DE_MATERIALES_PARA_LA_INDUSTRIA",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 20,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3406054_DIURNA_FABRICACION_DE_MOLDES_Y_TROQUELES.xls",
+      "ficha": "3406054",
+      "ficha_titulo": "3406054",
+      "jornada": "DIURNA",
+      "programa_titulo": "FABRICACIÓN DE MOLDES Y TROQUELES",
+      "programa_slug": "FABRICACION_DE_MOLDES_Y_TROQUELES",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 26,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3406496_DIURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3406496",
+      "ficha_titulo": "3406496",
+      "jornada": "DIURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 21,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3409328_DIURNA_APLICACION_DE_PROCEDIMIENTOS_DE_LABORATORIO_QUIMICO.xls",
+      "ficha": "3409328",
+      "ficha_titulo": "3409328",
+      "jornada": "DIURNA",
+      "programa_titulo": "APLICACION DE PROCEDIMIENTOS DE LABORATORIO QUIMICO",
+      "programa_slug": "APLICACION_DE_PROCEDIMIENTOS_DE_LABORATORIO_QUIMICO",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 14,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3411424_DIURNA_MODELADO_3D.xls",
+      "ficha": "3411424",
+      "ficha_titulo": "3411424",
+      "jornada": "DIURNA",
+      "programa_titulo": "MODELADO 3D PARA LA INDUSTRIA",
+      "programa_slug": "MODELADO_3D",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 26,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3411432_DIURNA_MONITOREO_AMBIENTAL.xls",
+      "ficha": "3411432",
+      "ficha_titulo": "3411432",
+      "jornada": "DIURNA",
+      "programa_titulo": "MONITOREO AMBIENTAL",
+      "programa_slug": "MONITOREO_AMBIENTAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 50,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3411434_NOCTURNA_DESARROLLO_COMPONENTES_MECANICOS.xls",
+      "ficha": "3411434",
+      "ficha_titulo": "3411434",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "DESARROLLO DE COMPONENTES MECANICOS",
+      "programa_slug": "DESARROLLO_COMPONENTES_MECANICOS",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3411435_DIURNA_GESTION_PRODUCCION_INDUSTRIAL.xls",
+      "ficha": "3411435",
+      "ficha_titulo": "3411435",
+      "jornada": "DIURNA",
+      "programa_titulo": "GESTIÓN DE LA PRODUCCIÓN INDUSTRIAL",
+      "programa_slug": "GESTION_PRODUCCION_INDUSTRIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3411438_DIURNA_COORDINACION_SISTEMAS_INTEGRADOS_GESTION.xls",
+      "ficha": "3411438",
+      "ficha_titulo": "3411438",
+      "jornada": "DIURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_SISTEMAS_INTEGRADOS_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3411446_NOCTURNA_COORDINACION_SISTEMAS_INTEGRADOS_GESTION.xls",
+      "ficha": "3411446",
+      "ficha_titulo": "3411446",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_SISTEMAS_INTEGRADOS_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3412095_NOCTURNA_GESTION_DE_LA_PRODUCCION_INDUSTRIAL.xls",
+      "ficha": "3412095",
+      "ficha_titulo": "3412095",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "GESTIÓN DE LA PRODUCCIÓN INDUSTRIAL",
+      "programa_slug": "GESTION_DE_LA_PRODUCCION_INDUSTRIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3412291_DIURNA_GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL.xls",
+      "ficha": "3412291",
+      "ficha_titulo": "3412291",
+      "jornada": "DIURNA",
+      "programa_titulo": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "programa_slug": "GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 25,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3418377_DIURNA_GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL.xls",
+      "ficha": "3418377",
+      "ficha_titulo": "3418377",
+      "jornada": "DIURNA",
+      "programa_titulo": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "programa_slug": "GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 24,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3433071_NOCTURNA_GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL.xls",
+      "ficha": "3433071",
+      "ficha_titulo": "3433071",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "programa_slug": "GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 21,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3442083_DIURNA_COORDINACION_SISTEMAS_INTEGRADOS_GESTION.xls",
+      "ficha": "3442083",
+      "ficha_titulo": "3442083",
+      "jornada": "DIURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_SISTEMAS_INTEGRADOS_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 32,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3442098_DIURNA_COORDINACION_SISTEMAS_INTEGRADOS_GESTION.xls",
+      "ficha": "3442098",
+      "ficha_titulo": "3442098",
+      "jornada": "DIURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_SISTEMAS_INTEGRADOS_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 36,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3442110_DIURNA_MODELADO_3D.xls",
+      "ficha": "3442110",
+      "ficha_titulo": "3442110",
+      "jornada": "DIURNA",
+      "programa_titulo": "MODELADO 3D PARA LA INDUSTRIA",
+      "programa_slug": "MODELADO_3D",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 26,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3442119_DIURNA_DESARROLLO_Y_MODELADO_PRODUCTOS_INDUSTRIALES.xls",
+      "ficha": "3442119",
+      "ficha_titulo": "3442119",
+      "jornada": "DIURNA",
+      "programa_titulo": "DESARROLLO Y MODELADO DE PRODUCTOS INDUSTRIALES.",
+      "programa_slug": "DESARROLLO_Y_MODELADO_PRODUCTOS_INDUSTRIALES",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 29,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3442186_NOCTURNA_COORDINACION_SISTEMAS_INTEGRADOS_GESTION.xls",
+      "ficha": "3442186",
+      "ficha_titulo": "3442186",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_SISTEMAS_INTEGRADOS_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 35,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3442189_DIURNA_GESTION_PRODUCCION_INDUSTRIAL.xls",
+      "ficha": "3442189",
+      "ficha_titulo": "3442189",
+      "jornada": "DIURNA",
+      "programa_titulo": "GESTIÓN DE LA PRODUCCIÓN INDUSTRIAL",
+      "programa_slug": "GESTION_PRODUCCION_INDUSTRIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 33,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3451155_DIURNA_GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL.xls",
+      "ficha": "3451155",
+      "ficha_titulo": "3451155",
+      "jornada": "DIURNA",
+      "programa_titulo": "GESTION DE PROYECTOS DE DESARROLLO ECONOMICO Y SOCIAL",
+      "programa_slug": "GESTION_DE_PROYECTOS_DE_DESARROLLO_ECONOMICO_Y_SOCIAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 23,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3465186_DIURNA_MONITOREO_AMBIENTAL.xls",
+      "ficha": "3465186",
+      "ficha_titulo": "3465186",
+      "jornada": "DIURNA",
+      "programa_titulo": "MONITOREO AMBIENTAL",
+      "programa_slug": "MONITOREO_AMBIENTAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 39,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3465201_DIURNA_MONITOREO_AMBIENTAL.xls",
+      "ficha": "3465201",
+      "ficha_titulo": "3465201",
+      "jornada": "DIURNA",
+      "programa_titulo": "MONITOREO AMBIENTAL",
+      "programa_slug": "MONITOREO_AMBIENTAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3492340_DIURNA_DESARROLLO_Y_MODELADO_DE_PRODUCTOS_INDUSTRIALES.xls",
+      "ficha": "3492340",
+      "ficha_titulo": "3492340",
+      "jornada": "DIURNA",
+      "programa_titulo": "DESARROLLO Y MODELADO DE PRODUCTOS INDUSTRIALES.",
+      "programa_slug": "DESARROLLO_Y_MODELADO_DE_PRODUCTOS_INDUSTRIALES",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3492368_NOCTURNA_DESARROLLO_COMPONENTES_MECANICOS.xls",
+      "ficha": "3492368",
+      "ficha_titulo": "3492368",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "DESARROLLO DE COMPONENTES MECANICOS",
+      "programa_slug": "DESARROLLO_COMPONENTES_MECANICOS",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3536070_DIURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3536070",
+      "ficha_titulo": "3536070",
+      "jornada": "DIURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 24,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3536292_NOCTURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3536292",
+      "ficha_titulo": "3536292",
+      "jornada": "NOCTURNA",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 31,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3536446_DIURNA_QUIMICA_APLICADA_A_LA_INDUSTRIA.xls",
+      "ficha": "3536446",
+      "ficha_titulo": "3536446",
+      "jornada": "DIURNA",
+      "programa_titulo": "QUÍMICA APLICADA A LA INDUSTRIA",
+      "programa_slug": "QUIMICA_APLICADA_A_LA_INDUSTRIA",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3566609_DIURNA_TECNICO_EN_PROCESOS_DE_MANUFACTURA_BAXTER.xls",
+      "ficha": "3566609",
+      "ficha_titulo": "3566609",
+      "jornada": "DIURNA",
+      "programa_titulo": "PROCESOS DE MANUFACTURA.",
+      "programa_slug": "TECNICO_EN_PROCESOS_DE_MANUFACTURA_BAXTER",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 26,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3566610_DIURNA_TRANSFORMACION_DE_POLIMEROS_POR_INYECCION.xls",
+      "ficha": "3566610",
+      "ficha_titulo": "3566610",
+      "jornada": "DIURNA",
+      "programa_titulo": "TRANSFORMACION DE POLIMEROS POR INYECCION",
+      "programa_slug": "TRANSFORMACION_DE_POLIMEROS_POR_INYECCION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 23,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3581049_DIURNA_ALISTAMIENTO_DE_LABORATORIOS_DE_ANALISIS_Y_ENSAYOS_PARA_LA_INDUSTRIA.xls",
+      "ficha": "3581049",
+      "ficha_titulo": "3581049",
+      "jornada": "DIURNA",
+      "programa_titulo": "ALISTAMIENTO DE LABORATORIOS DE ANALISIS Y ENSAYOS PARA LA INDUSTRIA",
+      "programa_slug": "ALISTAMIENTO_DE_LABORATORIOS_DE_ANALISIS_Y_ENSAYOS_PARA_LA_INDUSTRIA",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 18,
+      "columnas": 7,
+      "encabezado_fila": 4
+    },
+    {
+      "archivo": "Aprendices_3585066_DIURNA_MONITOREO_AMBIENTAL.xls",
+      "ficha": "3585066",
+      "ficha_titulo": "3585066",
+      "jornada": "DIURNA",
+      "programa_titulo": "MONITOREO AMBIENTAL",
+      "programa_slug": "MONITOREO_AMBIENTAL",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "filas": 30,
+      "columnas": 7,
+      "encabezado_fila": 4
+    }
+  ],
+  "duplicados_misma_ficha": [],
+  "duplicados_entre_fichas": [
+    {
+      "documento": "1108565448",
+      "fichas": [
+        "3141029",
+        "3171560"
+      ]
+    },
+    {
+      "documento": "31640086",
+      "fichas": [
+        "3145900",
+        "3302147"
+      ]
+    },
+    {
+      "documento": "1108565959",
+      "fichas": [
+        "3179885",
+        "3181464"
+      ]
+    },
+    {
+      "documento": "1109921381",
+      "fichas": [
+        "3179885",
+        "3181464"
+      ]
+    },
+    {
+      "documento": "1143928146",
+      "fichas": [
+        "3179885",
+        "3181464"
+      ]
+    },
+    {
+      "documento": "1105927600",
+      "fichas": [
+        "3181490",
+        "3350115"
+      ]
+    },
+    {
+      "documento": "1191214000",
+      "fichas": [
+        "3418377",
+        "3433071"
+      ]
+    },
+    {
+      "documento": "1112048356",
+      "fichas": [
+        "3442083",
+        "3442098"
+      ]
+    },
+    {
+      "documento": "1109544920",
+      "fichas": [
+        "3442098",
+        "3442186"
+      ]
+    }
+  ],
+  "errores": [],
+  "filas_muestra": [
+    {
+      "archivo": "Aprendices_3141025_NOCTURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3141025",
+      "ficha_titulo": "3141025",
+      "jornada": "NOCTURNA",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "tipo_documento": "CC",
+      "documento": "1005705745",
+      "nombres": "MARIANA",
+      "apellidos": "MORA GONZALEZ",
+      "celular": "3175191665",
+      "correo": "marianamora773@gmail.com",
+      "estado": "CANCELADO"
+    },
+    {
+      "archivo": "Aprendices_3141025_NOCTURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3141025",
+      "ficha_titulo": "3141025",
+      "jornada": "NOCTURNA",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "tipo_documento": "CC",
+      "documento": "1005894776",
+      "nombres": "JANIS XIOMARA",
+      "apellidos": "RAMIREZ ZAPATA",
+      "celular": "3172823772",
+      "correo": "janisxiomara2003@gmail.com",
+      "estado": "EN FORMACION"
+    },
+    {
+      "archivo": "Aprendices_3141025_NOCTURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3141025",
+      "ficha_titulo": "3141025",
+      "jornada": "NOCTURNA",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "tipo_documento": "CC",
+      "documento": "1006107599",
+      "nombres": "KEVIN FRANCISCO",
+      "apellidos": "RIASCOS ORTIZ",
+      "celular": "3165069486",
+      "correo": "kevin.riascos23@hotmail.com",
+      "estado": "EN FORMACION"
+    },
+    {
+      "archivo": "Aprendices_3141025_NOCTURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3141025",
+      "ficha_titulo": "3141025",
+      "jornada": "NOCTURNA",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "tipo_documento": "CC",
+      "documento": "1006109568",
+      "nombres": "VALENTINA",
+      "apellidos": "ESTRADA MELCHOR",
+      "celular": "3174640698",
+      "correo": "incognito178alv@gmail.com",
+      "estado": "EN FORMACION"
+    },
+    {
+      "archivo": "Aprendices_3141025_NOCTURNA_COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION.xls",
+      "ficha": "3141025",
+      "ficha_titulo": "3141025",
+      "jornada": "NOCTURNA",
+      "programa_slug": "COORDINACION_EN_SISTEMAS_INTEGRADOS_DE_GESTION",
+      "programa_titulo": "COORDINACION EN SISTEMAS INTEGRADOS DE GESTION",
+      "estado_ficha": "EN EJECUCION",
+      "fecha_reporte": "2026-10-19",
+      "tipo_documento": "CC",
+      "documento": "1006238983",
+      "nombres": "CRISTIAN DANIEL",
+      "apellidos": "PATIÑO MARIN",
+      "celular": "3142456340",
+      "correo": "patinocristian6340@gmail.com",
+      "estado": "EN FORMACION"
+    }
+  ]
+}

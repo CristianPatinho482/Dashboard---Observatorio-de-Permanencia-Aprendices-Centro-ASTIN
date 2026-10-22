@@ -1,0 +1,18 @@
+﻿GeneracionID,GeneracionNombre,GeneracionOrden,RangoFicha,Fichas,Matriculas,Perdidas,TasaPerdida,Nota
+GEN-314,Generación 314,1,3140000 - 3149999,4,121,60,0.4959,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-317,Generación 317,2,3170000 - 3179999,8,230,100,0.4348,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-318,Generación 318,3,3180000 - 3189999,2,50,26,0.52,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-323,Generación 323,4,3230000 - 3239999,1,24,10,0.4167,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-330,Generación 330,5,3300000 - 3309999,4,146,64,0.4384,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-331,Generación 331,6,3310000 - 3319999,1,26,6,0.2308,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-335,Generación 335,7,3350000 - 3359999,3,74,35,0.473,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-340,Generación 340,8,3400000 - 3409999,5,100,32,0.32,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-341,Generación 341,9,3410000 - 3419999,9,275,61,0.2218,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-343,Generación 343,10,3430000 - 3439999,1,21,1,0.0476,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-344,Generación 344,11,3440000 - 3449999,6,191,44,0.2304,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-345,Generación 345,12,3450000 - 3459999,1,23,0,0.0,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-346,Generación 346,13,3460000 - 3469999,2,69,0,0.0,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-349,Generación 349,14,3490000 - 3499999,2,60,0,0.0,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-353,Generación 353,15,3530000 - 3539999,3,85,0,0.0,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-356,Generación 356,16,3560000 - 3569999,2,49,0,0.0,Agrupación por prefijo de ficha. No equivale a año calendario.
+GEN-358,Generación 358,17,3580000 - 3589999,2,48,0,0.0,Agrupación por prefijo de ficha. No equivale a año calendario.

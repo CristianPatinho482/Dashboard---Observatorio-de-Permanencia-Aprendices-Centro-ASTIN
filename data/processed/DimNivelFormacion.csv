@@ -1,0 +1,4 @@
+﻿NivelID,NivelFormacion,Orden,Definicion
+N01,Técnico,1,Programa de formación técnica. Nivel inferido; validar en SOFIA Plus.
+N02,Tecnólogo,2,Programa de formación tecnológica. Nivel inferido; validar en SOFIA Plus.
+N03,No informado,3,Nivel no disponible en la fuente.
