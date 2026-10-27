@@ -1,4 +1,4 @@
-# Caracterización de Aprendices Centro ASTIN
+# OBservatorio de Aprendices Centro ASTIN
 
 Dashboard de analítica académica construido a partir de **56 reportes de ficha del SENA**, con corte al **19 de octubre de 2026**. El proyecto describe la matrícula, la pérdida, el riesgo por ficha, la permanencia y una capa exploratoria de priorización.
 
